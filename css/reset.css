@@ -1,0 +1,22 @@
+
+
+:root {
+    --preto: #000000;
+    --vermelho: #e53939;
+    --branco: #ffffff;
+}
+
+
+body{
+    background-color: var(--preto) !important;
+    color: var(--branco) !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: var(--branco) !important;
+}
+
+a:hover{
+    color: var(--vermelho) !important;
+}
