@@ -20,3 +20,20 @@ a{
 a:hover{
     color: var(--vermelho) !important;
 }
+
+.quadrado-gostos{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-color: var(--vermelho) !important;
+    background-color: var(--branco);
+}
+
+.divisao-quadrados{
+    gap: 40px;
+}
+
+
+#perfil{
+    width: 350px;
+}
