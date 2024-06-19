@@ -31,6 +31,7 @@ a:hover{
 
 .divisao-quadrados{
     gap: 40px;
+    color: var(--preto) !important;
 }
 
 
