@@ -15,11 +15,12 @@ a{
 }
 
 a:hover{
-    color: var(--vermelho) !important;
+    color: var(--preto) !important;
 }
 
 #menu{
     border-color: var(--vermelho) !important; 
+    background-color: var(--vermelho);
 }
 
 #apresentacao{
@@ -28,6 +29,12 @@ a:hover{
 
 #perfil{
     width: 350px;
+    border-color: var(--vermelho) !important;
+}
+
+
+#descricao{
+    background-color: var(--vermelho);
 }
 
 #divisao-quadrados{
@@ -48,6 +55,10 @@ a:hover{
     background-color: var(--branco);
 }
 
-#rodape{
-    border-color: var(--vermelho) !important;
+#quadrado-gostos img{
+    width: 100px;
+}
+
+#rodape a:hover{
+    color: var(--vermelho) !important;
 }
