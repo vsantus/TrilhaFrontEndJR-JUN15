@@ -1,11 +1,8 @@
-
-
 :root {
     --preto: #000000;
     --vermelho: #e53939;
     --branco: #ffffff;
 }
-
 
 body{
     background-color: var(--preto) !important;
@@ -21,7 +18,29 @@ a:hover{
     color: var(--vermelho) !important;
 }
 
-.quadrado-gostos{
+#menu{
+    border-color: var(--vermelho) !important; 
+}
+
+#apresentacao{
+    border-color: var(--vermelho) !important;
+}
+
+#perfil{
+    width: 350px;
+}
+
+#divisao-quadrados{
+    gap: 40px;
+    color: var(--preto) !important;
+}
+
+#quadrado-gostos{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
     width: 200px;
     height: 200px;
     border-radius: 20px;
@@ -29,12 +48,6 @@ a:hover{
     background-color: var(--branco);
 }
 
-.divisao-quadrados{
-    gap: 40px;
-    color: var(--preto) !important;
-}
-
-
-#perfil{
-    width: 350px;
+#rodape{
+    border-color: var(--vermelho) !important;
 }
