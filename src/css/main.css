@@ -19,7 +19,7 @@ a:hover{
 }
 
 #menu{
-    border-color: var(--vermelho) !important; 
+    border-color: var(--preto) !important; 
     background-color: var(--vermelho);
 }
 
@@ -35,6 +35,7 @@ a:hover{
 
 #descricao{
     background-color: var(--vermelho);
+    border-color: var(--branco) !important;
 }
 
 #divisao-quadrados{
@@ -48,17 +49,34 @@ a:hover{
     justify-content: top;
     align-items: center;
 
-    width: 200px;
-    height: 200px;
+    height: 230px;
     border-radius: 20px;
     border-color: var(--vermelho) !important;
     background-color: var(--branco);
 }
 
+
+
 #quadrado-gostos img{
-    width: 100px;
+    width: 90px;
+}
+
+#quadrado-gostos:hover{
+    transition-delay: 150ms;
+    -xpedu-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    
 }
 
 #rodape a:hover{
     color: var(--vermelho) !important;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+} 
+
+::-webkit-scrollbar-thumb{
+    background-color: #464646;
 }
