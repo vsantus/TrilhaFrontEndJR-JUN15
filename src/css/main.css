@@ -25,6 +25,7 @@ a:hover{
 
 #apresentacao{
     border-color: var(--vermelho) !important;
+    height: 300px;
 }
 
 #perfil{
@@ -32,6 +33,13 @@ a:hover{
     border-color: var(--vermelho) !important;
 }
 
+#saudacao{
+    border-color:var(--vermelho) !important;
+}
+
+#nome{
+    color: var(--vermelho);
+}
 
 #descricao{
     background-color: var(--vermelho);
@@ -62,7 +70,7 @@ a:hover{
 }
 
 #quadrado-gostos:hover{
-    transition-delay: 150ms;
+    transition: all 1s;
     -xpedu-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
