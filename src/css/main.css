@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 :root {
     --preto: #000000;
     --vermelho: #e53939;
@@ -7,6 +9,7 @@
 body{
     background-color: var(--preto) !important;
     color: var(--branco) !important;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif !important;
 }
 
 a{
@@ -51,6 +54,10 @@ a:hover{
     border-color: var(--branco) !important;
 }
 
+#biografia{
+    font-weight: 700;
+}
+
 #divisao-quadrados{
     gap: 40px;
     color: var(--preto) !important;
@@ -62,7 +69,7 @@ a:hover{
     justify-content: top;
     align-items: center;
 
-    height: 230px;
+    height: 280px;
     border-radius: 20px;
     border-color: var(--vermelho) !important;
     background-color: var(--branco);
@@ -80,6 +87,10 @@ a:hover{
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     
+}
+
+#info-gostos{
+    font-weight: 500;
 }
 
 #rodape a:hover{
